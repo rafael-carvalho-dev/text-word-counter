@@ -31,6 +31,7 @@ def ask_continue(lang):
         ValueError: If the user enters an invalid response.
     """
     response = input(translations[lang]['continue_prompt']).strip().lower()
-    if response not in ['y', 'n', 's']:  # Inclui 's' para português
+    valid_responses = ['y', 'n'] if lang == 'en' else ['s', 'n']
+    if response not in valid_responses:
         raise ValueError(translations[lang]['invalid_continue'])
     return response in ['y', 's']

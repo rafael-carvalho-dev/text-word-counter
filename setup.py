@@ -6,6 +6,7 @@ build_options = {
     "include_files": [
         "display_manager.py",
         "io_manager.py",
+        "language_manager.py",
         "process_manager.py",
         "block.ico"
     ]
