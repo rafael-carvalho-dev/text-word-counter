@@ -27,9 +27,16 @@ def choose_language():
         '1': 'en',
         '2': 'pt'
     }
-    print("Choose your language / Escolha seu idioma:")
-    print("1. English")
-    print("2. Português[Br]")
+    
+    while True:
+        print("Choose your language / Escolha seu idioma:")
+        print("1. English")
+        print("2. Português-Br")
 
-    return languages.get(input("Enter 1 or 2: ").strip(), 'en')
-
+        choice = input("Enter 1 or 2: ").strip()
+        
+        if choice in languages:
+            return languages[choice]
+        else:
+            # Display an error message and prompt again
+            print("Invalid choice. Please enter 1 for English or 2 for Portuguese.")
