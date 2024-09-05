@@ -70,7 +70,7 @@ The code is divided into different modules to maintain an organized structure:
 - **io_manager.py**: Manages user input.
 - **language_manager.py**: Manages the application language.
 - **process_manager.py**: Contains functions for text processing and word frequency calculation.
-
+---
 - **main.py**: Contém a lógica principal para executar o aplicativo.
 - **display_manager.py**: Gerencia a exibição do título e a limpeza do console.
 - **io_manager.py**: Gerencia a entrada do usuário.
