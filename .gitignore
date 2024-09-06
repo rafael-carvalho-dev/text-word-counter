@@ -1,5 +1,9 @@
 app.log
 display_manager.cpython-310.pyc
+display_manager.cpython-312.pyc
 io_manager.cpython-310.pyc
+io_manager.cpython-312.pyc
 language_manager.cpython-310.pyc
+language_manager.cpython-312.pyc
 process_manager.cpython-310.pyc
+process_manager.cpython-312.pyc
