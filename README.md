@@ -36,7 +36,7 @@ You can install all the dependencies at once using the `requirements.txt` file:
 
 1. Clone the repository to your local machine / Clone o repositório para sua máquina local:
 
-   `git clone https://github.com/yourusername/text-word-counter.git`
+   `git clone https://github.com/rafael-carvalho-dev/text-word-counter.git`
 
 2. Navigate to the project directory / Navegue até o diretório do projeto:
 
