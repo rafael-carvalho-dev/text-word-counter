@@ -1,7 +1,8 @@
 # Dictionary that holds translations for English and Portuguese
 translations = {
     'en': {
-        'input_text': 'Please enter some text: ',
+        'input_text': 'Please enter your text (finish with an empty line):',
+        'multi_line_hint': '(Press Enter on an empty line to finish)',
         'word_frequency': 'Words Frequency:',
         'continue_prompt': 'Would you like to keep going? (Y/N): ',
         'error': 'Error: ',
@@ -10,7 +11,8 @@ translations = {
         'invalid_continue': "Invalid input. Please enter 'Y' or 'N'."
     },
     'pt': {
-        'input_text': 'Por favor, insira algum texto: ',
+        'input_text': 'Por favor, insira o texto (termine com uma linha em branco):',
+        'multi_line_hint': '(Pressione Enter em uma linha vazia para terminar)',
         'word_frequency': 'Frequência de Palavras:',
         'continue_prompt': 'Gostaria de continuar? (S/N): ',
         'error': 'Erro: ',

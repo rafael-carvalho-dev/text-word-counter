@@ -10,7 +10,9 @@ def word_frequency(text):
     Returns:
         dict: A dictionary with words as keys and their frequency as values, sorted in ascending order.
     """
-
+    if not text:
+        return {}
+    
     words = text.lower().translate(str.maketrans("", "", string.punctuation)).split()
     word_count = Counter(words)
     return dict(sorted(word_count.items(), key=lambda x: x[1]))

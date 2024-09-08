@@ -8,7 +8,7 @@ build_options = {
         "io_manager.py",
         "language_manager.py",
         "process_manager.py",
-        "block.ico"
+        "text.ico"
     ]
 }
 
@@ -22,5 +22,5 @@ setup(
     description="A simple text word frequency counter application.",
     author="Acme Soft Inc.",
     options={"build_exe": build_options},
-    executables=[Executable("main.py", base=base, target_name="TextWordCounter.exe", icon="block.ico")]
+    executables=[Executable("main.py", base=base, target_name="TextWordCounter.exe", icon="text.ico")]
 )
